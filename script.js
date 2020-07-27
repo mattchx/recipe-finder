@@ -43,7 +43,7 @@ function searchMeal(e) {
     // Clear search text
     search.value = '';
   } else {
-    alert('Please enter a search term');
+    resultHeading.innerHTML = '<p>Please enter a search term.</p>'
   }
 }
 

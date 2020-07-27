@@ -88,7 +88,7 @@ function addMealToDOM(meal) {
   }
 
   single_mealEl.innerHTML = `
-    <div class="single-meal">
+    <div class="single-meal single-meal-box">
       <h1>${meal.strMeal}</h1>
       <img src="${meal.strMealThumb}" alt="${meal.strMeal}" />
       <div class="single-meal-info">
@@ -123,8 +123,8 @@ function knowMealID(e) {
 
 function featureMeal() {
   // Set heading
-  resultHeading.innerHTML = `<h2>Today's featured recipe!</h2>`;
-
+  resultHeading.innerHTML = `<h1>Today's featured recipe!</h1>`;
+  resultHeading.classList.add('feature-title-box');
   fetch(`https://www.themealdb.com/api/json/v1/1/random.php`)
     .then((res) => res.json())
     .then((data) => {

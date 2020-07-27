@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #032442;
+  background: #d1ccc0;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -134,6 +134,18 @@ input[type='text'] {
   font-weight: bold;
   padding: 5px;
   margin: 0 5px 5px 0;
+}
+
+.single-meal-box {
+  background-color:#84817a;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.feature-title-box {
+  color:#222f3e;
+  font-style: italic;
+  margin-bottom: -20px;
 }
 
 @media (max-width: 800px) {

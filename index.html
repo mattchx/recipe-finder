@@ -12,24 +12,34 @@
     <title>Meal Finder</title>
   </head>
   <body>
-    <div class="container m">
-      <h1>Meal Finder</h1>
-      <div class="flex">
-        <form class="flex" id="submit">
-          <input
-            type="text"
-            id="search"
-            placeholder="Search for meals or keywords"
-          />
-          <button class="search-btn" type="submit">
-            <i class="fas fa-search"></i>
-          </button>
-        </form>
-        <button class="random-btn" id="random">
-          <i class="fas fa-random"></i>
-        </button>
+    <!-- NAV BAR -->
+    <nav class="navbar sticky">
+      <div class="brand">
+        <img class="logo" src="img/apples-logo.png" alt="two apples logo"> 
+        <span class="title">Meal Finder</span>
       </div>
+      </a>
+      <div class="navbar-search">
+        <div class="flex">
+          <form class="flex" id="submit">
+            <input
+              type="text"
+              id="search"
+              placeholder="Search for meals or keywords"
+            />
+            <button class="search-btn" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+          <button class="random-btn" id="random">
+            <i class="fas fa-random"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
 
+
+    <div class="container">
       <div id="result-heading"></div>
       <div id="meals" class="meals"></div>
       <div id="single-meal"></div>

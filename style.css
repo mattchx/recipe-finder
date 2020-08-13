@@ -12,6 +12,7 @@
   color: white;
   z-index: 1;
   padding: 13px 0;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .sticky {
@@ -138,7 +139,7 @@ input[type='text'] {
 
 .single-meal {
   margin: 30px auto;
-  width: 70%;
+  width: 80%;
 }
 
 .single-meal img {
